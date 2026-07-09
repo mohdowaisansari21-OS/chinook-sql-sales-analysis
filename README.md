@@ -11,10 +11,13 @@ Digital music/media stores need to know **where their revenue comes from** and *
 
 ## 🗂️ Dataset
 
-- **Source:** [Chinook sample database](https://github.com/lerocha/chinook-database) — models a digital media store (similar to iTunes)
-- **Engine:** MySQL
-- **Tables used:** `Customer`, `Invoice`, `InvoiceLine`, `Track`, `Album`, `Artist`, `Genre`
-- **Scale:** 59 customers, 412 invoices, ~3,500 tracks across 25 genres
+- Source: Chinook sample database (digital music store) — https://github.com/lerocha/chinook-database
+- Format: MySQL
+- Tables used: Customer, Invoice, InvoiceLine, Track, Album, Artist, Genre
+- Size: ~59 customers, ~412 invoices, ~3500 tracks
+
+**To reproduce:** import `dataset/Chinook_MySql.sql` into MySQL Workbench 
+(or any MySQL client) to recreate the database used in this project.
 
 ## ❓ Key Questions Answered
 
