@@ -94,4 +94,5 @@ WHERE rn = 1;
 This project moved beyond writing individual queries to combining techniques — joins feeding into subqueries, subqueries feeding into window functions — to answer layered business questions. It also reinforced a habit worth calling out: verifying unexpected results (e.g. zero rows, uniform ties) against the underlying data with a diagnostic query before assuming a query is broken, rather than guessing.
 
 ---
-*Built while working through a structured SQL learning path (Stages 1–5: fundamentals → aggregation → joins → subqueries/CTEs → window functions) on the Chinook database.*
+*Built while working through a structured SQL learning path : 
+fundamentals → aggregation → joins → subqueries/CTEs → window functions) on the Chinook database.*
